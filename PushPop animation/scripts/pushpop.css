@@ -1,0 +1,46 @@
+img[id=one]{
+	position: absolute;
+	top:475px;
+	right:576px;
+}
+img[id=two]{
+	position: absolute;
+	top:375px;
+	right:576px;
+}
+img[id=three]{
+	position: absolute;
+	top:275px;
+	right:576px;
+}
+img[id=four]{
+	position: absolute;
+	top:175px;
+	right:576px;
+}
+img[id=fifth]{
+	position: absolute;
+	top:75px;
+	right:576px;
+}
+input[id=push]{
+	position: absolute;
+	top:33.33%;
+	left:15%;
+	width:11%;
+	height:10%;
+}
+input[id=pop]{
+	position: absolute;
+	top:45%;
+	left:15%;
+	width:11%;
+	height:10%;
+}
+input[id=refresh]{
+	position: absolute;
+	top:57%;
+	left:15%;
+	width:11%;
+	height:10%;
+}

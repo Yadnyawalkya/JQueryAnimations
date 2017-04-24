@@ -1,0 +1,42 @@
+			$(document).ready(function(){
+				$('#pop').click(function(){
+					$('#fifth').hide();
+									$('#pop').click(function(){
+					$('#four').hide();
+									$('#pop').click(function(){
+					$('#three').hide();
+									$('#pop').click(function(){
+					$('#two').hide();
+									$('#pop').click(function(){
+					$('#one').hide();
+									$('#pop').click(function(){
+										alert("Stack is empty !");
+									});
+								});
+							});
+						});
+					});
+				});
+				
+				$('#push').click(function(){
+					$('#one').show();
+									$('#push').click(function(){
+					$('#two').show();
+									$('#push').click(function(){
+					$('#three').show();
+									$('#push').click(function(){
+					$('#four').show();
+									$('#push').click(function(){
+					$('#fifth').show();
+									$('#push').click(function(){
+										alert("Stack overflow !");
+									});
+								});
+							});
+						});
+					});
+				});
+				$('#refresh').click(function(){
+					location.reload();
+				});
+			});
